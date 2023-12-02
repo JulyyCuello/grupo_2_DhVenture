@@ -8,8 +8,8 @@ Nuestro e-commerce está orientado tanto a entuciastas de las computadoras como 
 
 Los integrantes de este proyecto son:
 
-Marcos Bórquez
-Julieta Cuello
-Juan Ramírez
-Agustín Fotin
+Marcos Bórquez  
+Julieta Cuello  
+Juan Ramírez  
+Agustín Fotin  
 Javier Palacios
