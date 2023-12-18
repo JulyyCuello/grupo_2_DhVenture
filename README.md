@@ -13,3 +13,16 @@ Julieta Cuello
 Juan Ramírez  
 Agustín Fotin  
 Javier Palacios
+
+## Referentes
+
+1.Vemex : https://www.venex.com.ar/?gad_source=1&gclid=CjwKCAiA1fqrBhA1EiwAMU5m_204Z819i6SirVG0x9ackXUwgjGTyEz4LOOmazYjIOgDVFIgoHbokxoCJYEQAvD_BwE
+
+2.Compragamer : https://compragamer.com
+
+3.Compumundo : https://www.compumundo.com.ar/
+
+4.Fravega : https://www.fravega.com/?gad_source=1&gclid=CjwKCAiA1fqrBhA1EiwAMU5m_6hfIZwl8Tq5Po2cjDH-tuBPZwHb_i3f4P1yKBtxlsnPWBFe6BolhBoCyEgQAvD_BwE&gclsrc=aw.ds
+
+5.Exxa : https://exxa.com.ar/componentes-de-pc/?mpage=2
+
