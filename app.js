@@ -1,27 +1,28 @@
-const express = require('express')
+
+const express = require("express")
+
 const app = express()
-const path = require('path')
-const port = 3030;
+
+const path = require("path")
+
+const port = 3030
 
 
-app.use(express.static('public'))
 
-app.get('/',(req,res) => {
-  res.sendFile(path.join(__dirname,'./views/index.html'))
-
+app.listen(port, ()=>{
+    console.log(`corriendo http://localhost:${port}`)
 })
 
-
-app.get('/productCart.html',(req,res) => {
-  res.sendFile(path.join(__dirname,'./views/productCart.html'))
+app.get("/", (req, res) =>{
+    res.sendFile(path.join(__dirname,"./views/hdex.html"))
 })
 
-
-app.get('/productDetail.html',(req,res) => {
-  res.sendFile(path.join(__dirname,'./views/productDetail.html'))
+app.get("/productCart", (req, res) =>{
+    res.sendFile(path.join(__dirname,"./views/productCart.html"))
 })
 
+app.get("/productDetail", (req, res) =>{
+    res.sendFile(path.join(__dirname,"./views/productDetail.html"))
+})
 
-
-app.listen(port,() => console.log(`http://localhost:${port}`))
-
+app.use(express.static("public"))
