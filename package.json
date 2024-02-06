@@ -1,6 +1,4 @@
 {
-<<<<<<< HEAD
-=======
   "name": "grupo_2_dhventure",
   "version": "1.0.0",
   "description":"Nuestro e-commerce ofrecerá productos relacionados con el hardware y software para PC, desde componentes y periféricos hasta Sistemas Operativos y Utilidades como Office",
@@ -13,7 +11,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
->>>>>>> df67c6fa40f1bbf5017612dc218a5738b4641437
   "dependencies": {
     "express": "^4.18.2"
   }
