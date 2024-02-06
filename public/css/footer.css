@@ -1,0 +1,116 @@
+
+.main-footer{
+    background: linear-gradient(90deg, #192DDD, #6CEB78);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+    padding-top: 15px;
+}
+.titulo{
+    font-size: 10px;
+    color: white;
+    margin: 10px 0px 0px 10px;
+}
+.main-footer p{
+    font-size: 10px;
+    color: white;
+    margin: 10px 0px 0px 10px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 24px;
+}
+.texto-email{
+    font-size: 10px;
+    color: white;
+}
+.cuadro-email{
+    font-size: 10px;
+    display: block;
+    margin-top: 3px;
+    border: 0px;
+    border-radius: 5px;
+    width: 90%;
+    padding: 3px;
+}
+
+.icon-footer{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    margin: 15px;
+}
+.li-instagram{}
+.li-whatsapp{
+    order: -1;
+}
+.li-facebook{}
+.instagram{border-radius: 100%;padding: 5px 5.2px 5px 5px;background: linear-gradient(135deg,#ffd600 9%,#ff7a00 ,#ff0069 ,#d300c5 ,#7638fa);color: white;}
+.whatsapp{padding: 4px 4px 4px 4.6px;background-color: #2aa81a;border-radius: 50%;color: white;border: 1px solid #f2f3fb;}
+.facebook{border-radius: 50%;background: #3b5998;padding: 5.5px 7px 4px 7px;color: white;font-size: 15.1px;}
+.main-footer .copyright{
+    font-size: 8px;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 426px){
+.main-footer{}
+.titulo{
+    margin: 20px 0px 0px 10%;
+    font-size: 15px;
+}
+.main-footer p{
+    margin: 12px 0px 0px 10%;
+    font-size: 14px;
+}
+.formulario{
+    right: 10%;
+    top: 35px;
+}
+.texto-email{
+    font-size: 15px;
+}
+.cuadro-email{
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+}
+.icon-footer{}
+.li-instagram{}
+.li-whatsapp{}
+.li-facebook{}
+.instagram{}
+.whatsapp{}
+.facebook{}
+.main-footer .copyright{
+    margin-top: 20px;
+    font-size: 12px;
+}
+}
+
+@media (min-width: 769px){
+.main-footer{}
+.titulo{}
+.main-footer p{}
+.formulario{}
+.texto-email{}
+.cuadro-email{}
+.icon-footer{}
+.li-instagram{}
+.li-whatsapp{}
+.li-facebook{}
+.instagram{}
+.whatsapp{}
+.facebook{}
+.main-footer .copyright{}
+}

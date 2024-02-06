@@ -26,3 +26,6 @@ Javier Palacios
 
 5.Exxa : https://exxa.com.ar/componentes-de-pc/?mpage=2
 
+## Retro del primer sprint
+
+En retrospectiva, el primer sprint planteó múltiples desafíos, como la coordinación de los tiempos de trabajo en conjunto y la asignación de tareas a realizar. Para superar estas dificultades, atravesamos varias reuniones y charlas en las que tratamos de ponernos de acuerdo en un objetivo común. De esta forma, nos preparamos para enfrentar los desafíos que se avecinan.
