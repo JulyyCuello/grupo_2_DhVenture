@@ -10,6 +10,16 @@ app.get("/", (req, res) =>{
     res.sendFile(path.join(__dirname,"./views/index.html"))
 })
 
+
+app.get("/", (req, res) =>{
+    res.sendFile(path.join(__dirname,"./views/productCart.html"))
+})
+
+
+app.get("/", (req, res) =>{
+    res.sendFile(path.join(__dirname,"./views/productDetail.html"))
+})
+
 app.listen(port, ()=>{
   console.log(`corriendo http://localhost:${port}`)
 })
