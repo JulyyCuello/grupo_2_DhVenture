@@ -114,9 +114,9 @@ main.main-cart img.anuncio-cart{display: none;}
  }
  .descripcion-cart{
      display: flex;
-     flex-direction: row;
+     flex-direction: column;
      flex-wrap: wrap;
-     justify-content: center;
+     align-items: center;
  }
  .categoria-cart{
      font-size: 15px;
@@ -174,7 +174,6 @@ main.main-cart img.anuncio-cart{display: none;}
     width: 90%;
  }
  .descripcion-cart{
-    width: 140%;
  }
  .categoria-cart{}
  .productos-cart{}
