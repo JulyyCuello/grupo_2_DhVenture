@@ -26,21 +26,25 @@ main.main-cart img.anuncio-cart{display: none;}
      border: 2px solid #162a6d;
  }
  .anuncio-cart{
-     width: 100%;
-     height: 100%;
+     width: 25%;
+     height: 25%;
  }
  
  .ul-marcas-cart{
-     padding: 0px;
-     display: none;
- }
+   padding: 0px;
+    display: none;
+    }
+
  .marcas-cart{
+       
  }
- .img-marcas-cart{
+ ul li a.img-marcas-cart{
+    
  }
  .img-cart{
-     width: 100%;
- }
+    width: 100%;
+   
+     }
  
  .ul2-main-cart{
      display: none;
@@ -65,8 +69,8 @@ main.main-cart img.anuncio-cart{display: none;}
      padding: 10px;
      justify-content: space-around;
  }
- .img-seccion-cart{
-     width: 100px;
+  section img.img-seccion-cart{
+     width: 30%;
  }
  .descripcion-cart{
  }
@@ -141,21 +145,13 @@ main.main-cart img.anuncio-cart{display: none;}
  .anun-1-cart{}
  .anuncio-cart{}
  .ul-marcas-cart{
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-     flex-wrap: wrap;
-     align-items: center;
+  
  }
- .marcas-cart{width: 20%;
-    display: inline-block;
-    background: #3344de;
-    padding: 10px;}
- .img-marcas-cart{display: inline-block;
-    width: 100%;}
- .img{
-     width: 100%;
-     height: 140px;
+ .marcas-cart{}
+ .img-marcas-cart{
+    
+ }
+ 
  }
  .ul2-main-cart{
      display: none;
@@ -183,7 +179,7 @@ main.main-cart img.anuncio-cart{display: none;}
  .categoria-cart{}
  .productos-cart{}
  .precio-cart{}
- }
+ 
  .boton-agregar-carrito{
     width: 130px;
  }
