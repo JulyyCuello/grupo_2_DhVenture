@@ -76,5 +76,9 @@ button{
     button{
         width: 15%;
     }
-
+    .descripcion{
+        width: 30%;
+        margin-left: 32%;
+        
+    }
 }
