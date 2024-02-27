@@ -1,0 +1,80 @@
+
+.body-dashboard{
+  
+   
+    background-image: url("/images/IMAGEN DE DASHBOARD.jpg");
+    
+}
+
+.section-dashboard{
+    text-align: center; /* Para alinear los elementos hijos al centro */
+    
+}
+
+
+.titulo-agregar-producto{
+
+    color:aliceblue;
+  
+    text-align: center;
+
+}
+
+
+
+.input-dashboard, label{
+    display: block;
+    width: 200px; /* Ancho fijo para todos los inputs */
+    margin-bottom: 5px;
+    margin-left: 20%;
+ border-radius: 10px;
+    font-size: 20px;/* Espacio entre los inputs */
+    
+}
+
+label{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+   background-color: aqua; 
+   width: 30%;
+
+   border-radius: 10px;
+}
+
+.file{
+    color: white;
+}
+
+.descripcion{
+    width: 80%;
+    
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .input-dashboard, label {
+        margin-left: 37%;
+    }
+    button{
+        width: 15%;
+        width: 15%
+    
+    }
+    .descripcion{
+        width: 40%;
+        margin-left: 30%;
+        
+    }
+}
+
+@media (min-width: 1024px) {
+    .input-dashboard, label {
+        margin-left: 40%;
+    }
+    button{
+        width: 15%;
+    }
+
+}

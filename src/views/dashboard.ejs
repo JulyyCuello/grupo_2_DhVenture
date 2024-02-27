@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Dashboard</title>
+</head>
+<body class="body-dashboard" >
+
+    <header class="main-header">
+        <a class="a-logo" href="">
+        <img class="logo" src="/images/logoLetras 1.png" alt="">
+        </a>
+
+        <div class="nav-header">
+            <form action="" method="get" class="contenedor">
+            <input class="barra" type="text" placeholder="Buscar productos, marcas">
+            <button class="lupa"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+
+
+        <!-- MENU DE OPCIONES  -->
+        <a class="menu-header" href=""><i class="fa-solid fa-bars"></i></a>
+
+      
+      <h2 class="bienvenido">bienvenido/a usuario</h2>
+      
+      <li class="li-carrito" type="none"><a class="ico-carrito" href="/productCart"><i class="fa-sharp fa-solid fa-cart-arrow-down"></a></i></li>
+      <li class="li-corazon" type="none"><a class="ico-corazon" href=""><i class="fa-regular fa-heart"></a></i></li>   
+
+<nav class="main-nav">
+    <ul class="li-nav" type="none">
+        <li class="text-nav"><a href="">Notbooks</a></li>
+        <li class="text-nav"><a href="">Placas de video</a></li>
+        <li class="text-nav"><a href="">Monitores</a></li>
+        <li class="text-nav"><a href="">Micros</a></li>
+        <li class="text-nav"><a href="">PC de escritorio</a></li>
+    </ul>
+</nav>
+
+    </header>
+    <h1 class="titulo-agregar-producto">Agregar Producto</h1>
+    <section class="section-dashboard">
+    <form action="/agregar-producto" method="POST">
+<div>
+        <label for="name">Marca:</label>
+        <input  class="input-dashboard"  type="text" id="name" name="name" required><br><br>
+    </div>
+    <div>
+        <label for="modelo">Modelo:</label>
+        <input  class="input-dashboard"   type="text" id="modelo" name="modelo" required><br><br>
+    </div>
+
+    <div>
+        <label for="almacenamiento">Almacenamiento:</label>
+        <input   class="input-dashboard"   type="text" id="almacenamiento" name="almacenamiento" required><br><br>
+    </div>
+
+    <div>
+        <label for="memoria">Memoria:</label>
+        <input   class="input-dashboard"   type="text" id="memoria" name="memoria" required><br><br>
+    </div> 
+    <div>
+        <label for="description">Descripción:</label><br>
+        <textarea class="descripcion" id="description" name="description" rows="4" cols="50"></textarea><br><br>
+
+    </div> 
+    <div>
+        <label for="category">Categoría:</label>
+        <select id="category" name="category">
+            <option value="monitor">Seleccionar</option>
+            <option value="monitor">Monitor</option>
+            <option value="mouse">Mouse</option>
+            <option value="teclado">Teclado</option>
+            <option value="gabinete">Gabinete</option>
+            <option value="memorias">Memorias</option>
+            <option value="disco-rigido">Disco Rígido</option>
+            <option value="mother">Mother</option>
+            <option value="fuente">Fuente</option>
+            <option value="pendrive">Pendrive</option>
+        </select><br><br>
+    </div>
+    <div>  
+        <label for="price">Precio:</label>
+        <input  class="input-dashboard"   type="number" id="price" name="price" required><br><br>
+    </div> 
+    <div>
+        <label for="image">Imagen:</label>
+        <input  class="file"  type="file" id="image" name="image" accept="image/*" required><br><br>
+
+    </div>
+        <button type="submit">Agregar Producto</button>
+    </form>
+
+
+    <footer class="main-footer">
+        <h2 class="titulo">ATENCION AL CLIENTE:</h2>
+        <p>0810-555-8769</p>
+        <p>consultas @dhventure.com.ar</p>
+        <p>whatsApp+54112353-0953</p>
+        <h2 class="titulo">DHVENTURE PICKUP POINT:</h2>
+        <p>Buenos Aires: Lunes a Viernes de 09 a 18</p>
+        <form class="formulario" action="" method="post">
+        <label class="texto-email" for="email">Suscribite y recibi las mejores promos</label>
+        <input class="cuadro-email" type="email" name="email" placeholder="direccion de email...">
+
+        <ul type="none" class="icon-footer">
+            <li class="li-instagram"><a class="instagram" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="li-whatsapp"><a class="whatsapp" href="https://wa.me" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+           <li class="li-facebook"><a class="facebook" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+        </ul>
+         </form>
+        
+        
+        <p class="copyright">copyright 2023-DHVenture.Buenos Aires, Argentina</p>
+    </footer>
+</section>
+   
+</body>
+</html>
