@@ -1,5 +1,5 @@
 const path = require('path');
-
 module.exports = (req, res) => {
-    res.sendFile(path.join(__dirname, '../../views/productDetail.html'))
+    //res.sendFile(path.join(__dirname, '../../views/productDetail'))
+    res.render( '../views/productDetail.ejs')
 }
