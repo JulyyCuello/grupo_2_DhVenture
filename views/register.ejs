@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Register</title>
+
+</head>
+<body class="Body-Register">
+    
+    <section class="formulario">
+    <DIv class="cuadrado-registro">
+    <DIv class="Dh-Venture-Logo"> 
+        <img src="/images/logoLetras 1.png">
+    
+    </DIv> 
+    <Div class="Crear-cuenta">
+        <h2>Crear Cuenta</h2>
+
+    </Div>
+    <form action="/registro" method="post">
+    
+    
+    <input type="text" id="nombre" name="nombre" placeholder="Nombre*" required>
+    <h6 class="Campo-Errores-de-Registro"> Campo Obligatorio*</h6>
+
+    <input type="text" id="apellido" name="apellido" placeholder="Apellido*" required>
+    <h6 class="Campo-Errores-de-Registro"> Campo Obligatorio*</h6>
+
+    <input type="email" id="email" name="email" placeholder="Correo Electrónico*" required>
+    <h6 class="Campo-Errores-de-Registro"> Campo Obligatorio*</h6>
+
+    <input type="password" id="password" name="password" placeholder="Contraseña*" required>
+    <h6 class="Campo-Errores-de-Registro"> Campo Obligatorio*</h6>
+
+    <input type="password" id="confirmarPassword" name="confirmarPassword" placeholder="Confirmar Contraseña*" required>
+    <h6 class="Campo-Errores-de-Registro"> Campo Obligatorio*</h6>
+
+    <button type="submit">Crear Cuenta</button>
+    </form>
+    <div class="Login">
+    <a href="/login"> ¿Ya tenes tu cuenta? </a>
+</div>
+    </DIv>
+</section>
+</body>
+</html>

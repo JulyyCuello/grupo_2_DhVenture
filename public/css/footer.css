@@ -43,10 +43,10 @@
     padding: 0px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
     gap: 10px;
     margin: 15px;
+    width: 70%;
+    justify-content: space-around;
 }
 .li-instagram{}
 .li-whatsapp{
@@ -82,16 +82,32 @@
 }
 .cuadro-email{
     width: 100%;
-    margin-top: 5px;
+    margin-top: 12px;
     padding: 5px;
+    font-size: .8rem;
 }
-.icon-footer{}
-.li-instagram{}
+.icon-footer{
+    font-size: 25px;
+    width: 100%;
+    margin-top: 20px;
+}
+.li-instagram{
+}
 .li-whatsapp{}
 .li-facebook{}
-.instagram{}
-.whatsapp{}
-.facebook{}
+.instagram{
+    font-size: 28px;
+    padding: 7px 8px;
+}
+.whatsapp{
+    font-size: 30px;
+    border: 0px;
+    padding: 7px 7px 7px 8.5px;
+}
+.facebook{
+    padding: 10px 14px 9px 13px;
+    font-size: 23px;
+}
 .main-footer .copyright{
     margin-top: 20px;
     font-size: 12px;
@@ -103,14 +119,33 @@
 .titulo{}
 .main-footer p{}
 .formulario{}
-.texto-email{}
-.cuadro-email{}
-.icon-footer{}
-.li-instagram{}
+.texto-email{
+    width: 250px;
+    font-size: 16px;
+}
+.cuadro-email{
+    padding: 10px;
+    font-size: 15px;
+}
+.icon-footer{
+    font-size: 30px;
+    margin: 20px;
+    justify-content: space-around;
+}
+.li-instagram{
+    font-size: 30px;
+}
 .li-whatsapp{}
 .li-facebook{}
-.instagram{}
-.whatsapp{}
-.facebook{}
+.instagram{
+    padding: 9px 10px 9px;
+}
+.whatsapp{
+    padding: 8px 10px 8px 11px;
+}
+.facebook{
+    font-size: 26px;
+    padding: 11px 15px 10px;
+}
 .main-footer .copyright{}
 }
