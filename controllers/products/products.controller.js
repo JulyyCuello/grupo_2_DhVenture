@@ -34,7 +34,7 @@ const productsControllers = {
         res.send(products);
     },
     dashboard: (req, res) => {
-        res.render('dashboard');
+        res.render("nuevoProducto");
     }
 };
 

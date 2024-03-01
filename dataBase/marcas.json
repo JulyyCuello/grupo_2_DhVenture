@@ -1,0 +1,17 @@
+
+
+
+[
+    {
+        "id": 1,
+        "marca": "Samsung"
+    },
+    {
+        "id": 2,
+        "marca": "AMD"
+    },
+    {
+        "id": 3,
+        "marca": "Daewoo"
+    }
+]
