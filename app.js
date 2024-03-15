@@ -15,6 +15,7 @@ const cartRoutes = require('./routes/cart.routes');
 const homeRoutes = require('./routes/index.routes');
 const errorRoutes = require('./routes/error.routes');
 
+
 // View engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -28,6 +29,7 @@ app.use("/auten", authRoutes);
 app.use("/products", prodRoutes);
 app.use("/carrito", cartRoutes);
 app.use("/error", errorRoutes);
+
 
 // SERVER
 app.listen(port, () => {

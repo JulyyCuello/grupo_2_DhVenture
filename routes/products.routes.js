@@ -7,6 +7,7 @@ const editProductController = require("../controllers/products");
 //
 
 router.get("/productos", adminController.listaProducts);
+router.get("/detalle/:id", adminController.detalle);
 
 router.get('/nuevoProducto', productsControllers.dashboard);
 router.post("/agregar-producto", productsControllers.agregarProducto);
