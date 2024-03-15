@@ -35,6 +35,7 @@ const productsControllers = {
 
        res.redirect("/products/dashboard")
     },
+<<<<<<< HEAD
     create: (req, res) => {
         res.render('create');
     },
@@ -67,6 +68,11 @@ res.render("dashboard",{products})
                
       }
     
+=======
+    dashboard: (req, res) => {
+        res.render("nuevoProducto");
+    }
+>>>>>>> 95802d061fde47d6fb76d26597072aa114bc032b
 };
 
 module.exports = productsControllers;
