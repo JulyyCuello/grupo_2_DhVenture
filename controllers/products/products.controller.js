@@ -4,12 +4,14 @@ const path = require('path'); // Añade la importación de 'path'
 const productsControllers = {
     agregarProducto: (req, res) => {
         const { name, price, modelo,almacenamiento,memoria,image} = req.body;
+        let id=8
 
         console.log(name)
         console.log(price)
         console.log("estoy en productsController")
 
         const product = {
+            id:id+1,
             name: name,
             price: price,
             modelo:modelo,
@@ -31,11 +33,46 @@ const productsControllers = {
         
         fs.writeFileSync(productsFilePath, JSON.stringify(products)); 
 
-        res.send(products);
+       res.redirect("/products/dashboard")
     },
+<<<<<<< HEAD
+    create: (req, res) => {
+        res.render('create');
+    },
+
+    dashboard:(req,res)=>{
+
+       
+            const productsFilePath = path.join(__dirname, "../data/products.json");
+            const products = JSON.parse(fs.readFileSync(productsFilePath, "utf-8"));
+       
+        
+
+res.render("dashboard",{products})
+    },
+
+    destroy: (req,res) => {
+
+        const productsFilePath = path.join(__dirname, "../data/products.json");
+        const products = JSON.parse(fs.readFileSync(productsFilePath, "utf-8"));
+         console.log("llegue a destroy")
+        let {id}=req.params;
+        console.log("metodo delete", id);
+       
+        console.log(products);
+        const newArray=products.filter(product => product.id != id);
+        console.log("newArray", newArray);
+        const json=JSON.stringify(newArray);
+                fs.writeFileSync(productsFilePath,json, 'utf-8');
+                res.redirect("/");
+               
+      }
+    
+=======
     dashboard: (req, res) => {
         res.render("nuevoProducto");
     }
+>>>>>>> 95802d061fde47d6fb76d26597072aa114bc032b
 };
 
 module.exports = productsControllers;

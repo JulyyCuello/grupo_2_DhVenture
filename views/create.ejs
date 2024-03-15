@@ -1,51 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Dashboard</title>
 </head>
-<<<<<<< HEAD:views/dashboard.ejs
-<body>
-    <!-- Head -->
-<%- include("./partials/head.ejs") %>
-  
-<body class="contenedor_body_dashboard">
-  
-    
-    <h2>Lista de Productos</h2>
-  <table>
-    <thead>
-        <tr>
-        <th>ID</th>
-        <th>Nombre</th>
-        <th>Imagen</th>
-        <th>Detalles</th>
-        <th>Acciones</th>
-      </tr>
-      </thead>
-    <tbody>
-      <% products.forEach(element => { %>
-        <tr>
-          <td><%=element.id%></td>
-          <td><%=element.name%></td>
-          <td><img src="/images/<%= element.image %>" alt="<%= element.name %>"></td>
-          <td><%=element.description%></td>
-          <td>
-            <a href="/products/productEdit/<%= element.id %>">Editar</a>
-            <a href="/products/productEdit/<%= element.id %>">Actualizar</a>
-            <form action="/products/delete/<%= element.id%>?_method=delete" method="post">
-              <button type="submit">Eliminar</button>
-            </form>  
-          </td>
-        </tr>
-        <% }) %>
-    </tbody>
-   </table>
-  <form action="/create" method="post">
-<a href="/products/agregar-producto">Crear Producto</a>
-</form>
-=======
 <body class="body-dashboard" >
 
     <header class="main-header">
@@ -68,7 +29,7 @@
       <h2 class="bienvenido">bienvenido/a usuario</h2>
       
       <li class="li-carrito" type="none"><a class="ico-carrito" href="/productCart"><i class="fa-sharp fa-solid fa-cart-arrow-down"></a></i></li>
-      <li class="li-corazon" type="none"><a class="ico-corazon" href=""><i class="fa-regular fa-heart"></a></i></li>
+      <li class="li-corazon" type="none"><a class="ico-corazon" href=""><i class="fa-regular fa-heart"></a></i></li>   
 
 <nav class="main-nav">
     <ul class="li-nav" type="none">
@@ -165,8 +126,5 @@
     </footer>
 </section>
    
->>>>>>> 95802d061fde47d6fb76d26597072aa114bc032b:views/nuevoProducto.ejs
 </body>
-</html>
-
 </html>
