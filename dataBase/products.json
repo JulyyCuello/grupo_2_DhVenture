@@ -10,7 +10,8 @@
         "proximamente": false,
         "stock": true,
         "image": "monitor.jpg",
-        "discount": 10
+        "discount": 10,
+        "categoria": "nuevo + 50 vendidos"
     },
     {
         "id": 2,
@@ -23,7 +24,8 @@
         "proximamente": false,
         "stock": true,
         "image": "tarjeta1.jpeg",
-        "discount": 10
+        "discount": 10,
+        "categoria": "nuevo + 50 vendidos"
     },
     {
         "id": 3,
@@ -36,6 +38,49 @@
         "Proximamente": false,
         "stock": true,
         "image": "netbook.jpg",
-        "discount": 20
+        "discount": 20,
+        "categoria": "nuevo + 50 vendidos"
+    },
+    {
+        "id": 4,
+        "name": "Notebook 14''",
+        "marca": "Daewoo",
+        "price": 344999,
+        "description": "Notebook 14'' Daewoo 64gb Ssd + 4gb - Windows 10 Dn14gr3002",
+        "nuevo": true,
+        "Oferta": false,
+        "Proximamente": false,
+        "stock": true,
+        "image": "netbook.jpg",
+        "discount": 20,
+        "categoria": "nuevo + 50 vendidos"
+    },
+    {
+        "id": 5,
+        "name": "Notebook 14''",
+        "marca": "Daewoo",
+        "price": 344999,
+        "description": "Notebook 14'' Daewoo 64gb Ssd + 4gb - Windows 10 Dn14gr3002",
+        "nuevo": true,
+        "Oferta": false,
+        "Proximamente": false,
+        "stock": true,
+        "image": "netbook.jpg",
+        "discount": 20,
+        "categoria": "nuevo + 50 vendidos"
+    },
+    {
+        "id": 6,
+        "name": "Notebook 14''",
+        "marca": "Daewoo",
+        "price": 344999,
+        "description": "Notebook 14'' Daewoo 64gb Ssd + 4gb - Windows 10 Dn14gr3002",
+        "nuevo": true,
+        "Oferta": false,
+        "Proximamente": false,
+        "stock": true,
+        "image": "netbook.jpg",
+        "discount": 20,
+        "categoria": "nuevo + 50 vendidos"
     }
 ]

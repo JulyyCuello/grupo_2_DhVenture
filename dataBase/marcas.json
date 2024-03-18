@@ -1,17 +1,80 @@
-
-
-
 [
     {
         "id": 1,
-        "marca": "Samsung"
+        "name": "Monitor Led Samsung 24''",
+        "marca": "Samsung",
+        "price": 159999,
+        "description": "Monitor Led Samsung 24 pulgadas 1ps 75hz - Lf24t350fhlczb Color Negro",
+        "nuevo": true,
+        "oferta": false,
+        "proximamente": false,
+        "stock": true,
+        "image": "monitor.jpg",
+        "discount": 10
     },
     {
         "id": 2,
-        "marca": "AMD"
+        "name": "Motherboard Am4 B450m Ds3h Tarjeta Madre",
+        "marca": "AMD",
+        "price": 344999,
+        "description": "Motherboard Am4 B450m Ds3h Tarjeta Madre Gigabyte Amd Ddr4",
+        "nuevo": true,
+        "oferta": false,
+        "proximamente": false,
+        "stock": true,
+        "image": "tarjeta1.jpeg",
+        "discount": 10
     },
     {
         "id": 3,
-        "marca": "Daewoo"
+        "name": "Notebook 14''",
+        "marca": "Daewoo",
+        "price": 344999,
+        "description": "Notebook 14'' Daewoo 64gb Ssd + 4gb - Windows 10 Dn14gr3002",
+        "nuevo": true,
+        "Oferta": false,
+        "Proximamente": false,
+        "stock": true,
+        "image": "netbook.jpg",
+        "discount": 20
+    },
+    {
+        "id": 4,
+        "name": "Notebook 14''",
+        "marca": "Daewoo",
+        "price": 344999,
+        "description": "Notebook 14'' Daewoo 64gb Ssd + 4gb - Windows 10 Dn14gr3002",
+        "nuevo": true,
+        "Oferta": false,
+        "Proximamente": false,
+        "stock": true,
+        "image": "netbook.jpg",
+        "discount": 20
+    },
+    {
+        "id": 5,
+        "name": "Notebook 14''",
+        "marca": "Daewoo",
+        "price": 344999,
+        "description": "Notebook 14'' Daewoo 64gb Ssd + 4gb - Windows 10 Dn14gr3002",
+        "nuevo": true,
+        "Oferta": false,
+        "Proximamente": false,
+        "stock": true,
+        "image": "netbook.jpg",
+        "discount": 20
+    },
+    {
+        "id": 6,
+        "name": "Notebook 14''",
+        "marca": "Daewoo",
+        "price": 344999,
+        "description": "Notebook 14'' Daewoo 64gb Ssd + 4gb - Windows 10 Dn14gr3002",
+        "nuevo": true,
+        "Oferta": false,
+        "Proximamente": false,
+        "stock": true,
+        "image": "netbook.jpg",
+        "discount": 20
     }
 ]

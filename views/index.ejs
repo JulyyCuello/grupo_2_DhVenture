@@ -18,26 +18,29 @@
                 <li class="marcas"><a class="img-marcas" href="/productos"><img class="img" src="/images/intel.jpg" alt=""></a></li>
             </ul>
             <ul class="ul2-main" type="none">
-                <li class="li2-main"><a href="/carrito"><img class="anun-2" src="/images/netbook.jpg" alt=""></a></li>
-                <li class="li2-main"><a href="/carrito"><img class="anun-2" src="/images/tarjeta1.jpeg" alt=""></a></li>
-                <li class="li2-main"><a href="/carrito"><img class="anun-2" src="/images/grafica.jpeg" alt=""></a></li>
-                <li class="li2-main"><a href="/carrito"><img class="anun-2" src="/images/monitor.jpg" alt=""></a></li>
+                <li class="li2-main"><a href="/productos"><img class="anun-2" src="/images/netbook.jpg" alt=""></a></li>
+                <li class="li2-main"><a href="/productos"><img class="anun-2" src="/images/monitor.jpg" alt=""></a></li>
+                <li class="li2-main"><a href="/productos"><img class="anun-2" src="/images/tarjeta1.jpeg" alt=""></a></li>
+                <li class="li2-main"><a href="/productos"><img class="anun-2" src="/images/grafica.jpeg" alt=""></a></li>
             </ul>
 
         <!-- PRODUCTOS -->
         <div class="productos">
-
+<% dataBase.forEach(p => { %>
+    <section class="seccion">
+    
+        <a href="/productos/detalle/<%=p.id%>"><img class="img-seccion" src="/images/<%=p.image %>" alt=""></a>
+        <div class="descripcion">
+            <p class="categoria"><%=p.categoria %></p>
+            <P class="producto"><%=p.description %></P>
+            <p class="precio">$<%=p.price %></p>
+        </div>
+    </section>
+<% }) %>
         <!-- SECCION 1 -->
-        <section class="seccion">
-            <a href="/productos"><img class="img-seccion" src="/images/monitor.jpg" alt=""></a>
-            <div class="descripcion">
-                <p class="categoria">Nuevo | + 50 vendidos</p>
-                <P class="producto">Monitor Led Samsung 24" 1ps 75hz - Lf24t350fhlczb Color Negro</P>
-                <p class="precio">$159.999</p>
-            </div>
-        </section>
 
-        <!-- SECCION 2 -->  
+
+        <!--  
         <section class="seccion">
             <a href="/productos"><img class="img-seccion" src="/images/tarjeta1.jpeg" alt=""></a>
             <div>
@@ -47,7 +50,6 @@
             </div>
         </section>
         
-        <!-- SECCION 3 -->
         <section class="seccion">
             <a href="/productos"><img class="img-seccion" src="/images/netbook.jpg" alt=""></a>
             <div>
@@ -56,6 +58,7 @@
                 <p class="precio">$344.999</p>
             </div>
         </section>
+        -->
     </div>
     </main>
     <%-include("./partials/footer")%>

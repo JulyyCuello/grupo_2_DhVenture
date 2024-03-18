@@ -1,0 +1,34 @@
+[
+   {
+      "id": 1,
+      "name": "Javier Palacios",
+      "user": "javi1234",
+      "email": "javierPal@gamil.com",
+      "password": "1234567",
+      "agreement": true
+   },
+   {
+      "id": 2,
+      "name": "Julieta Cuello",
+      "user": "JuliCue",
+      "email": "JuliCuello@gmail.com",
+      "password": "7654321",
+      "agreement": true
+   },
+   {
+      "id": 3,
+      "name": "Juan Rodriguez",
+      "user": "JuanRod",
+      "email": "JuanRod@gmail.com",
+      "password": "abcd1234",
+      "agreement": true
+   },
+   {
+      "id": 4,
+      "name": "Marcos Borquez",
+      "user": "MarcBor",
+      "email": "MarcBor@gmail.com",
+      "password": "dcba4321",
+      "agreement": true
+   }
+]

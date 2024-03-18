@@ -1,4 +1,6 @@
-const path = require('path');
+const { loadData } = require('../../dataBase');
 module.exports = (req, res) => {
-    res.render( '../views/index.ejs')
+    const productHome = loadData()
+        res.render( '../views/index.ejs', {dataBase : productHome})
 }
+
