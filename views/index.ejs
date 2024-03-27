@@ -28,7 +28,6 @@
         <div class="productos">
 <% dataBase.forEach(p => { %>
     <section class="seccion">
-    
         <a href="/productos/detalle/<%=p.id%>"><img class="img-seccion" src="/images/<%=p.image %>" alt=""></a>
         <div class="descripcion">
             <p class="categoria"><%=p.categoria %></p>
@@ -38,8 +37,6 @@
     </section>
 <% }) %>
         <!-- SECCION 1 -->
-
-
         <!--  
         <section class="seccion">
             <a href="/productos"><img class="img-seccion" src="/images/tarjeta1.jpeg" alt=""></a>
